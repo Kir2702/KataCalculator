@@ -11,11 +11,9 @@ public class Main
     }
 
     public static String calc(String input){
-
-        String expression = input;
         String result;
         try {
-            Controller controller = new Controller(expression);
+            Controller controller = new Controller(input);
             result = controller.calculation();
 
         } catch (Exception e) {
