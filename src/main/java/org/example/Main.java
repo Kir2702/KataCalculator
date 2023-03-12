@@ -6,8 +6,8 @@ public class Main
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String expression = input.nextLine();
-        calc(expression);
-        //System.out.println(calc(expression));
+        //calc(expression);
+        System.out.println(calc(expression));
     }
 
     public static String calc(String input){
